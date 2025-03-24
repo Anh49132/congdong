@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cộng Đồng Xã Hội</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Cộng Đồng Xã Hội</h1>
+        <nav>
+            <ul>
+                <li><a href="#trang-chu">Trang chủ</a></li>
+                <li><a href="#du-an">Dự án</a></li>
+                <li><a href="#blog">Blog/Tin tức</a></li>
+                <li><a href="#dang-ky">Đăng ký tình nguyện</a></li>
+                <li><a href="#dien-dan">Diễn đàn</a></li>
+                <li><a href="#lien-he">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="trang-chu">
+        <h2>Giới thiệu</h2>
+        <img src="images/gioi-thieu.jpg" alt="Giới thiệu cộng đồng">
+        <p>🌍 Mỗi hành động nhỏ đều có thể tạo nên sự thay đổi lớn. Chúng tôi tin rằng lòng nhân ái và tinh thần cộng đồng 
+        sẽ giúp thế giới trở nên tốt đẹp hơn. Hãy cùng nhau xây dựng những giá trị bền vững, tạo ra cơ hội cho những người cần giúp đỡ,
+        và lan tỏa yêu thương đến mọi nơi. ✨</p>
+    </section>
+
+    <section id="du-an">
+        <h2>Dự án xã hội</h2>
+
+        <div class="du-an">
+            <img src="images/du-an1.jpg" alt="Thư viện miễn phí">
+            <h3>Dự án "Ánh Sáng Tri Thức"</h3>
+            <p>📚 Xây dựng thư viện miễn phí và cung cấp sách cho trẻ em vùng sâu vùng xa.</p>
+        </div>
+
+        <div class="du-an">
+            <img src="images/du-an2.jpg" alt="Trồng cây xanh">
+            <h3>Dự án "Xanh Hơn Mỗi Ngày"</h3>
+            <p>🌱 Chiến dịch trồng cây xanh và nâng cao nhận thức về môi trường.</p>
+        </div>
+
+        <div class="du-an">
+            <img src="images/du-an3.jpg" alt="Bữa ăn từ thiện">
+            <h3>Dự án "Cơm Ấm Mỗi Ngày"</h3>
+            <p>🥘 Cung cấp bữa ăn miễn phí cho người vô gia cư và trẻ em nghèo.</p>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog/Tin tức</h2>
+
+        <div class="blog-bai">
+            <img src="images/blog1.jpg" alt="Câu chuyện truyền cảm hứng">
+            <h3>🌟 Câu chuyện về một cậu bé thay đổi cả làng</h3>
+            <p>Một em nhỏ ở vùng cao đã giúp cộng đồng mình tiếp cận với sách như thế nào?</p>
+        </div>
+
+        <div class="blog-bai">
+            <img src="images/blog2.jpg" alt="Bảo vệ môi trường">
+            <h3>🌿 Cách chúng ta có thể cứu hành tinh từ những hành động nhỏ</h3>
+            <p>Chỉ cần một chút thay đổi trong lối sống, bạn có thể giúp bảo vệ môi trường.</p>
+        </div>
+    </section>
+
+    <section id="dang-ky">
+        <h2>Đăng ký tình nguyện viên</h2>
+        <img src="images/tinh-nguyen.jpg" alt="Đăng ký tình nguyện viên">
+        <form>
+            <label for="name">Họ và tên:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Đăng ký</button>
+        </form>
+    </section>
+
+    <section id="dien-dan">
+        <h2>Diễn đàn thảo luận</h2>
+        <img src="images/dien-dan.jpg" alt="Diễn đàn thảo luận">
+        <p>Nơi để mọi người chia sẻ ý kiến và kinh nghiệm trong hoạt động xã hội.</p>
+        
+        <h3>Bình luận:</h3>
+        <textarea id="comment-box" placeholder="Nhập bình luận của bạn..."></textarea>
+        <button onclick="postComment()">Gửi bình luận</button>
+        
+        <h3>Các bình luận:</h3>
+        <div id="comments-section"></div>
+    </section>
+
+    <section id="lien-he">
+        <h2>Liên hệ</h2>
+        <p>Email: <a href="mailto:lienhe@congdongxahoi.com">lienhe@congdongxahoi.com</a></p>
+        <p>Số điện thoại: 0123 456 789</p>
+    </section>
+
+</body>
+</html>
